@@ -1,12 +1,12 @@
-const header = document.querySelector('header')
-window.onscroll = () => {
-    if (window.scrollY > 200) {
-        header.classList.add('activeHeader')
-    } else {
-        header.classList.remove('activeHeader')
-    }
+// const header = document.querySelector('header')
+// window.onscroll = () => {
+//     if (window.scrollY > 200) {
+//         header.classList.add('activeHeader')
+//     } else {
+//         header.classList.remove('activeHeader')
+//     }
 
-}
+// }
 
 const openNav = document.querySelector('#openNav')
 const closeNav = document.querySelector('#closeNav')

@@ -2,18 +2,17 @@
 
 // $domain = 'http://192.168.1.5/romansa-travel.web.id/';
 $domain = 'https://romansa-travel.web.id/';
-$brand = 'Mosi Tour & Travel';
+$brand = 'Travel bersama Romansa Travel';
 // $logoShared = 'src/img/harga-travel.jpg';
-$logo = 'src/img/logo.webp';
-$logoPanjang = 'src/img/logo.webp';
-$title = $brand . " menawarkan Travel Jawa Bali 24 Jam";
-$desc = $brand . " menawarkan Travel di daerah Surabaya, Bali, Denpasar, Kediri, Mojokerto, dan Jombang.";
-$telp = '0895-4028-82198';
+$logo = 'src/img/Logo-Romansa-Trans.webp';
+$logoPanjang = 'src/img/Logo-Romansa-Trans.webp';
+$title = $brand . " - Rute Travel Rembang Bojonegoro Tuban Lamongan Surabaya Malang.";
+$desc = $brand . ", kami menawarkan Travel di daerah Jawa Timur, terutama pada rute travel rembang bojonegoro tuban lamongan surabaya malang.";
+$telp = '0821-4663-2524';
 // $telp2 = '0857-9190-4615';
-$alamat = 'Jl. Tribuana Tungga Dewi Jalan, Mojokerep, Menanggal, Kec. Mojosari, Kabupaten Mojokerto, Jawa Timur 61382';
+$alamat = 'Keben, Kebonharjo, Kec. Jatirogo, Kabupaten Tuban, Jawa Timur';
 
-
-$iframe = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.5159848406374!2d112.53856177402264!3d-7.518558092494284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e780b48c7c3c505%3A0xc814eb8e1dc815d6!2sJl.%20Tribuana%20Tungga%20Dewi%2C%20Mojokerep%2C%20Menanggal%2C%20Kec.%20Mojosari%2C%20Kabupaten%20Mojokerto%2C%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1770794146576!5m2!1sid!2sid';
+$iframe = 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3961.2667033529897!2d111.61779762695312!3d-6.858604399999999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7713003bb0a7ad%3A0x951e0097c43b05af!2sALFIN%20TRAVEL!5e0!3m2!1sen!2sid!4v1772377509306!5m2!1sen!2sid';
 
 function res_telp($telp)
 {
@@ -55,53 +54,53 @@ $menu = [
 
 
 $rute = [
-  "Travel Surabaya Bali",
-  "Travel Surabaya Denpasar",
-  "Travel Kediri Denpasar",
-  "Travel Kediri Bali",
-  "Travel Kediri Surabaya",
-  "Travel Mojokerto Denpasar",
-  "Travel Mojokerto Bali",
-  "Travel Jombang Denpasar",
-  "Travel Jombang Bali",
+  "Travel Rembang Tuban",
+  "Travel Rembang Bojonegoro",
+  "Travel Rembang Lamongan",
+  "Travel Rembang Surabaya",
+  "Travel Rembang Malang",
 
-  "Travel Bali Surabaya",
-  "Travel Denpasar Surabaya",
-  "Travel Denpasar Kediri",
-  "Travel Bali Kediri",
-  "Travel Surabaya Kediri",
-  "Travel Denpasar Mojokerto",
-  "Travel Denpasar Jombang",
-  "Travel Bali Mojokerto",
-  "Travel Bali Jombang",
+  "Travel Tuban Bojonegoro",
+  "Travel Tuban Lamongan",
+  "Travel Tuban Surabaya",
+  "Travel Tuban Malang",
+
+  "Travel Bojonegoro Lamongan",
+  "Travel Bojonegoro Surabaya",
+  "Travel Bojonegoro Malang",
+
+  "Travel Lamongan Surabaya",
+  "Travel Lamongan Malang",
+
+  "Travel Surabaya Malang",
 ];
 
 $kota = [
-  [
-    'Denpasar',
-    'denpasar.jpg',
-  ],
-  [
-    'Bali',
-    'bali.jpg',
-  ],
   [
     'Surabaya',
     'surabaya.jpg',
   ],
   [
-    'Kediri',
-    'kediri.jpg',
+    'Tuban',
+    'tuban.jpg',
+  ],
+  [
+    'Malang',
+    'malang.jpg',
+  ],
+  [
+    'Rembang',
+    'rembang.jpg',
   ],
 ];
 
 $galeri = [
-  '1.jpeg',
-  '2.jpeg',
-  '3.jpeg',
-  '4.jpg',
-  '5.jpg',
-  '6.jpg',
+  'default/1.jpg',
+  'default/2.jpg',
+  'default/3.jpg',
+  'default/4.jpg',
+  'default/5.jpg',
+  'default/6.jpg',
 ];
 
 // $harga = [
@@ -114,24 +113,26 @@ $galeri = [
 $keunggulan = [
   [
     '🚗',
-    'Armada Nyaman & Terawat',
-    'Kami menggunakan armada mobil yang bersih, wangi, dan selalu dalam kondisi prima. Setiap kendaraan menjalani perawatan rutin untuk memastikan perjalanan Anda aman dan nyaman dari penjemputan hingga tiba di tujuan.'
+    'Armada Bersih, Nyaman & Siap Jalan',
+    'Setiap armada kami selalu dalam kondisi prima, rutin diservis, bersih, dan wangi. Kami memastikan perjalanan Anda aman serta nyaman sejak penjemputan hingga tiba di tujuan.'
   ],
 
   [
     '👨‍✈️',
-    'Driver Profesional & Berpengalaman',
-    'Pengemudi kami ramah, berpengalaman, dan memahami rute terbaik untuk perjalanan yang lebih cepat dan efisien . Keselamatan dan kenyamanan penumpang adalah prioritas utama kami.'
+    'Driver Ramah & Profesional',
+    'Pengemudi berpengalaman yang memahami rute terbaik untuk perjalanan lebih cepat dan efisien. Keselamatan serta kenyamanan penumpang selalu menjadi prioritas utama.'
   ],
+
   [
     '🏠',
-    'Layanan Door to Door',
-    'Nikmati kemudahan dijemput dan diantar langsung ke alamat tujuan tanpa perlu repot ke terminal. Praktis, hemat waktu, dan lebih nyaman.'
+    'Layanan Antar Jemput Door to Door',
+    'Nikmati kemudahan ' . $brand . '  dijemput dan diantar langsung ke alamat tujuan tanpa perlu ke terminal. Lebih praktis, hemat waktu, dan tentunya lebih nyaman.'
   ],
+
   [
-    '💰',
-    'Harga Terjangkau & Transparan',
-    'Tanpa biaya tersembunyi. Anda mendapatkan layanan premium dengan harga yang kompetitif dan sebanding dengan kenyamanan yang kami berikan.'
+    '🗺️',
+    'Rute Lengkap & Strategis',
+    $desc . ' Dengan jangkauan rute yang luas, kami siap mengantar Anda antar kota.'
   ],
 ];
 ?>
@@ -157,9 +158,10 @@ $keunggulan = [
       j.src =
         'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
       f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-N82MWHS9');
+    })(window, document, 'script', 'dataLayer', 'GTM-KSM7VKP8');
   </script>
   <!-- End Google Tag Manager -->
+
   <meta name="author" content="Dion Zebua" />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -195,18 +197,18 @@ $keunggulan = [
 
 <body class="font-poppins text-slate-700 overflow-x-hidden">
   <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N82MWHS9"
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSM7VKP8"
       height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
   <header class="">
-    <div class="container !py-4">
+    <div class="container !py-2">
       <div class="flex justify-between">
         <div class="grid place-items-center">
           <a href="<?= $domain ?>">
             <img
               src="<?= $domain . $logoPanjang ?>"
-              class="w-14 md:w-[70px] rounded m-auto"
+              class="w-20 rounded m-auto"
               alt="logo" />
           </a>
         </div>
@@ -222,7 +224,7 @@ $keunggulan = [
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="size-6 stroke-slate-100 hover:stroke-slate-200">
+                class="size-8 stroke-slate-100 hover:stroke-slate-200">
                 <path
                   stroke-linecap="round"
                   stroke-linejoin="round"
@@ -331,15 +333,16 @@ $keunggulan = [
         style="background-image: url(./src/img/background-hero-section.jpg)"
         class="py-10 lg:py-7 bg-fixed bg-contain bg-center rounded-lg relative">
         <div
-          class="absolute rounded-lg inset-0 bg-[radial-gradient(rgb(0_0_0_/_0.6),rgb(0_0_0_/_0.7))] from-0% via-50% to-100%">
+          class="absolute rounded-lg inset-0 bg-[radial-gradient(rgb(0_0_0_/_0.9),rgb(0_0_0_/_0.7))] md:bg-[radial-gradient(rgb(0_0_0_/_0.6),rgb(0_0_0_/_0.7))] from-0% via-50% to-100%">
         </div>
         <div
           class="grid grid-cols-12 [&>div]:col-span-full items-center gap-y-6">
-          <div class="md:!col-span-7 p-5 md:p-10 md:-top-10 lg:p-20 z-10">
+          <div class="md:!col-span-7 p-5 md:p-10 md:-top-10 lg:p-20 z-10 sm:max-w-[600px] lg:max-w-full">
             <h1
-              class="text-white text-3xl leading-[40px] md:text-[40px] md:leading-[50px] lg:text-5xl lg:leading-[70px] font-bold text-left sm:max-w-[600px] lg:max-w-full">
-              <?= $title ?>
+              class="max-w-[400px] mb-3 text-white text-3xl leading-[40px] md:text-[40px] md:leading-[50px] lg:text-5xl lg:leading-[70px] font-bold text-left">
+              <?= $brand ?>
             </h1>
+            <p class="desc text-[17px] leading-7 !text-slate-300 !mb-5"><?= $desc; ?></p>
             <div class="flex gap-x-5 mt-7">
               <a
                 href="<?= $link_whatsapp ?>"
@@ -501,10 +504,10 @@ $keunggulan = [
     </section>
 
     <!-- Jadwal -->
-    <div class="container mt-10">
+    <div class="container my-10">
       <a href="<?= $link_whatsapp ?>" target="_blank" rel="nofollow">
 
-        <img src="<?= $domain ?>src/img/Mosi-Tour-Travel.webp" class="rounded-xl shadow-md w-full aspect-[16/6]" alt="<?= $title ?>">
+        <img src="<?= $domain ?>src/img/Romansa-Trans.webp" class="rounded-xl shadow-md w-full md:aspect-[16/7]" alt="<?= $title ?>">
       </a>
     </div>
 
@@ -514,10 +517,9 @@ $keunggulan = [
       <div class="container">
         <div class="py-20">
           <div class="text-center inner-container">
-            <h2 class="line-h2">Destinasi Populer</h2>
+            <h2 class="line-h2">Lokasi Travel Populer</h2>
             <p class="desc">
-              Kunjungi destinasi-destinasi terkenal bersama <?= $brand ?>, nikmati pengalaman
-              travel yang tak terlupakan dan menyenangkan!
+              Kunjungi lokasi-lokasi travel populer bersama <?= $brand ?> dan rasakan pengalaman perjalanan yang seru, nyaman, serta penuh momen tak terlupakan!
             </p>
           </div>
           <div
@@ -595,13 +597,13 @@ $keunggulan = [
     <section class="container my-20 mt-10" id="rute-travel">
       <div class="">
         <div class="text-center inner-container">
-          <h2 class="line-h2">Rute <?= $brand ?></h2>
+          <h2 class="line-h2">Daftar Rute <?= $brand ?></h2>
           <p class="desc">
             <?= $desc; ?>
           </p>
         </div>
         <div
-          class="grid grid-cols-12 gap-x-6 gap-y-8 [&>div]:col-span-12 [&>div]:sm:col-span-6 [&>div]:md:col-span-4 [&>div]:lg:col-span-3 [&>div]:rounded-xl [&>div]:border-t-8 [&>div]:border-primary [&>div]:shadow-xl [&>div]:overflow-hidden [&>div]:bg-white [&>div]:relative [&>div>a]:absolute [&>div>a]:inset-0 [&_img]:border-b [&>div_div]:p-4 [&>div_div]:md:px-5 [&>div_div]:lg:px-6 [&_h3]:line-clamp-3 [&_h3]:text-[15px] [&_h3]:font-semibold [&_h3]:text-slate-700 [&_h3]:z-10 [&_h3]:relative [&_h3]:cursor-pointer">
+          class="grid grid-cols-12 gap-x-6 gap-y-8 [&>div]:col-span-12 [&>div]:sm:col-span-6 [&>div]:md:col-span-4 [&>div]:lg:col-span-3 [&>div]:rounded-xl [&>div]:border-b-8 [&>div]:border-primary [&>div]:shadow-xl [&>div]:overflow-hidden [&>div]:bg-white [&>div]:relative [&>div>a]:absolute [&>div>a]:inset-0 [&_img]:border-b [&>div_div]:p-4 [&>div_div]:md:px-5 [&>div_div]:lg:px-6 [&_h3]:line-clamp-3 [&_h3]:text-[15px] [&_h3]:font-semibold [&_h3]:text-slate-700 [&_h3]:z-10 [&_h3]:relative [&_h3]:cursor-pointer">
           <?php if (count($rute) > 0) : ?>
             <?php foreach ($rute as $item) : ?>
               <div>
@@ -611,7 +613,7 @@ $keunggulan = [
                   href="<?= $link_whatsapp ?>!"
                   class=""></a>
                 <img
-                  src="<?= $domain ?>src/img/rute.webp"
+                  src="<?= $domain ?>src/img/Rute-Romansa-Trans.webp"
                   width="100%"
                   height="100%"
                   loading="lazy"
@@ -622,7 +624,7 @@ $keunggulan = [
                     <?= $item ?> PP
                   </h3>
                   <p class="text-sm opacity-80 my-2 !line-clamp-3">Reservasi tiket <strong><?= $item ?></strong> PP dengan sistem door to door dan perjalanan via tol.</p>
-                  <a target="_blank" href="<?= $link_whatsapp ?>" class="bg-primary hover:!bg-primary-hover text-slate-100 block text-center text-sm mt-3 rounded p-2 relative">Pesan Travel</a>
+                  <a target="_blank" href="<?= $link_whatsapp ?>" class="bg-primary hover:!bg-primary-hover text-slate-100 block text-center text-sm mt-3 rounded p-2 relative">Reservasi Tiket</a>
                 </div>
               </div>
             <?php endforeach; ?>
@@ -644,12 +646,15 @@ $keunggulan = [
           </div>
           <div class="col-span-full md:!col-span-1  ">
             <div class="text inner-container">
-              <h2 class="line-h2 left-12 text-slate-50 before:!bg-blue-300 after:!bg-blue-300">Tentang Kami</h2>
+              <h2 class="line-h2 left-12 text-slate-50 before:!bg-blue-300 after:!bg-blue-300"><?= $brand ?></h2>
               <p class="desc !text-slate-300 !mb-5">
-                <?= $desc ?> Kami travel Surabaya, Bali, Denpasar, Kediri, Mojokerto, Jombang dan sekitarnya. Melayani jemput antar ke lokasi (door to door service). Dengan harga yg murah, dan driver yg berpemgalaman.
+                Jadwalkan <?= $desc ?>
               </p>
               <p class="desc !text-slate-300 !mb-5">
-                Yuk booking sekarang, bayarnya nanti bisa cash setelah sampai di tujuan.
+                Yuk booking <a href="https://jasatravel.web.id/rute-travel/dari-kota-surabaya/ke-kabupaten-tuban/3578/3523" class="underline" target="_blank">Travel Surabaya Tuban</a> sekarang juga bersama, prosesnya cepat dan mudah tanpa ribet, dan nikmati kemudahan pembayaran cash yang bisa dilakukan setelah kamu sampai di tujuan perjalanan.
+              </p>
+              <p class="desc !text-slate-300 !mb-5">
+                Layanan transportasi lain yang kami sediakan untuk anda:
               </p>
               <ul class="!list-item !list-disc text-slate-300 ml-5">
                 <li>Travel Reguler</li>
@@ -679,12 +684,11 @@ $keunggulan = [
           class="bg-gradient-to-tr from-primary to-primary-hover rounded-3xl p-8 text-center sm:p-16 md:px-24 md:py-20 lg:px-28">
           <div class="max-w-2xl mx-auto">
             <h2 class="text-white text-4xl">
-              Apakah anda ingin perjalanan travel yang aman dan cepat?
+              Apakah anda ingin menjadwalkan <?= $brand ?>?
             </h2>
             <p
               class="max-w-lg text-base text-indigo-100 mx-auto mt-4 sm:text-lg">
-              Hubungi kami dan konsultasikan kebutuhan travel murah anda sekarang juga, kami siap
-              membantu anda 24 jam.
+              Hubungi kami sekarang dan konsultasikan kebutuhan travel murah Anda bersama kami. Tim kami siap membantu memberikan solusi perjalanan terbaik, nyaman, aman, dan sesuai dengan kebutuhan Anda.
             </p>
           </div>
           <div
@@ -692,7 +696,7 @@ $keunggulan = [
             <a
               href="<?= $link_whatsapp ?>"
               class="flex gap-2 px-5 py-2 border-2 border-slate-200 hover:border-primary-hover bg-white hover:bg-primary-hover text-slate-700 hover:text-slate-200 rounded-lg w-min top-0 hover:top-2 transition-all duration-700 relative">
-              Pesan
+              Kontak
             </a>
             <a
               href="#rute-travel"
@@ -774,7 +778,7 @@ $keunggulan = [
       <div class="container">
         <div class="">
           <div class="text-center inner-container">
-            <h2 class="line-h2">Galeri Travel</h2>
+            <h2 class="line-h2">Galeri Mobil Travel </h2>
             <p class="desc">
               Galeri ini menampilkan berbagai unit, foto, dan momen berharga
               yang merefleksikan perjalanan kami.
@@ -814,9 +818,9 @@ $keunggulan = [
       <div class="container">
         <div class="">
           <div class="text-center inner-container">
-            <h2 class="line-h2 text-white">Keunggulan Kami</h2>
+            <h2 class="line-h2 text-white">Keunggulan memilih Travel Kami</h2>
             <p class="desc !text-slate-300 !mb-5">
-              Nikmati layanan transportasi yang mengutamakan kenyamanan, keamanan, dan ketepatan waktu. Kami hadir untuk memberikan pengalaman perjalanan yang lebih praktis dan menyenangkan.
+              Nikmati keunggulan layanan <?= $brand ?> yang mengutamakan kenyamanan, keamanan, dan ketepatan waktu di setiap perjalanan. Kami hadir dengan armada terawat, driver profesional, serta pelayanan ramah untuk memastikan pengalaman perjalanan yang lebih praktis, aman, dan menyenangkan bagi Anda.
             </p>
           </div>
           <div
@@ -833,7 +837,7 @@ $keunggulan = [
                       <p class="">
                         <?= $item[2] ?>
                       </p>
-                    </div> <a href="<?= $link_whatsapp ?>" class="flex items-center justify-between group-hover:text-secondary"> <span class="text-sm">Hubungi Kami</span> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 -translate-x-4 text-2xl opacity-0 transition duration-300 group-hover:translate-x-0 group-hover:opacity-100">
+                    </div> <a href="<?= $link_whatsapp ?>" class="underline flex items-center justify-between group-hover:text-secondary"> <span class="text-sm">Hubungi Kami</span> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 -translate-x-4 text-2xl opacity-0 transition duration-300 group-hover:translate-x-0 group-hover:opacity-100">
                         <path fill-rule="evenodd" d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z" clip-rule="evenodd"></path>
                       </svg> </a>
                   </div>
@@ -891,7 +895,7 @@ $keunggulan = [
                       alt="bintang" />
                   </div>
                   <p class="testimoni">
-                    Saya menggunakan jasa Travel <?= $brand ?> untuk rute <a href="https://jasatravel.web.id/rute-travel/dari-bali/ke-kota-surabaya/51/3578" class="underline" target="_blank">Travel Bali Surabaya</a>. Pelayanan sangat memuaskan, armada nyaman, tepat waktu, dan staf ramah. Pengalaman perjalanan yang menyenangkan dan saya sangat puas!
+                    Saya menggunakan jasa Travel <?= $brand ?> untuk rute <a href="https://jasatravel.web.id/rute-travel/dari-kabupaten-tuban/ke-kota-surabaya/3523/3578" class="underline" target="_blank">Travel Tuban Surabaya</a>. Pelayanan sangat memuaskan, armada nyaman, tepat waktu, dan staf ramah. Pengalaman perjalanan yang menyenangkan dan saya sangat puas!
                   </p>
                   <div class="user-testimoni">
                     <img
