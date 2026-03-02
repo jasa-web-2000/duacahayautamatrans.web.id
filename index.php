@@ -1,7 +1,7 @@
 <?php
 
-$domain = 'http://192.168.1.5/romansa-travel.web.id/';
-// $domain = 'https://romansa-travel.web.id/';
+// $domain = 'http://192.168.1.5/romansa-travel.web.id/';
+$domain = 'https://romansa-travel.web.id/';
 $brand = 'Travel bersama Romansa Travel';
 // $logoShared = 'src/img/harga-travel.jpg';
 $logo = 'src/img/Logo-Romansa-Trans.webp';
